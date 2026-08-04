@@ -1,0 +1,446 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "CommonDBContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "DataModel",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "DataModel.Domain",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 2,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Account]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Address]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[APFilterReq]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApprovalComments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApprovalPloicy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApprovalPloicyDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AutoPostingInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BatchPrint]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillEntryAIInformationDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillEntryDebiitMemoPreference]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillEntryInformation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillEntryInformationDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillEntryPayments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillPaymentImportDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillPaymentImportMappingDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillPaymentsInformation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillPayOrInvoiceAdjust]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Business]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BusinessDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BusinessInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BusinessPercentage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BusinessPreferences]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BusinessRelatedExtension]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BusinessTokenDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Contact]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CorpACHSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CorpDiscountAccountConfiguration]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Corporation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CorporationBankDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CorporationTaxSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CorporationYearEndProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Country]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CreditTerm]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DirectDepositAuditInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DirectDepositBankDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DirectDepositExportDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EFTAuditInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EFTColumns]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EFTConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EFTFormat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EFTFormatDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EftrpPayment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EPaymentLogInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EPaymentsBatch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EPaymentsBatchDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EPaymentsBatchLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EPaymentsBatchVoidDeleteLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FortePaymentsSchedule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FortePaymentTokens]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Frequency]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImportDocument]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImportDocumentDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InterCompanyReferences]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[JournalChatInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[JournalEntry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[JournalEntryExt]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Locking]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MasterBinAuditing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MasterLongAuditing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MiscInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OCRCreditTerm]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OCRJournalEntry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OCRTransaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OCRTransactionInvoice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OCRTransactionTaxInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PaymentBatchIssue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PCTransactions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Purpose]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Reconciliation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReconciliationDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReconciliationMerge]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReconciliationMergeDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Remind]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RepayAuditInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RepayConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Repetitive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RepetitiveCreditTerm]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RepetitiveTransaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RepetitiveTransactionInvoice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[State]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Store]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TemptableForBulkPrint]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Transaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransactionDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransactionInvoice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransactionTaxInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[User]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserACHDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserCorporation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserDirectDepositDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserPreferenceSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UseTax]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UseTaxDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UseTaxRates]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VendorAddress]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VendorAIPurposeDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VendorAudit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VendorContract]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VendorDirectDepositDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VendorTaxInfo]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

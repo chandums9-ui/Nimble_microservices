@@ -1,0 +1,102 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "UMDBContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "DataModel",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "UserMgmt.Domain",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 2,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[ClientInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Dump_UserInformation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MenuInformation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Role]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RolePrevileges]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ServerInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[URLInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[URLServerInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserClientLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserCorpLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserCredentials]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserLoginActivity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserPCLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserPrevileges]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

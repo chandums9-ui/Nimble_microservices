@@ -1,0 +1,218 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "DailySalesContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "DBCon",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "DailySales.Infra",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 1,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[AdjustOpeningBalance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApprovalComments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApprovalPloicy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ApprovalPloicyDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailyConfigDepartment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailyConfigGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailyConfigInputEntry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailyConfigInputEntry_AR]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailyConfigInputEntry_ARDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailyConfigInputEntry_Receipt]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailyConfigInputEntry_ReceiptDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailyConfigInputEntry_Revenue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailyConfigInputEntry_RevenueDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailyConfigInputEntry_Statistics]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailyConfigInputEntry_StatisticsDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailyConfigLine]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailyConfigVerification]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DailySaleDefaults]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DsCashCheckFilterReq]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DSDepositInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DSDepositInfoDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DSDeposits]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DummyDailyConfigInputEntry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DummyDailyConfigInputEntry_ARReceipt]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DummyDailyConfigInputEntry_RevStat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DummyPMSCorpMappingDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[JournalEntry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[JournalEntryExt]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Locking]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Lookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OTBForeCastDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OTBForeCastIndividualDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OTBForeCastInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PMSClientInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PMSCorporationMappindDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PMSCorporationMapping]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PMSFacilityMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PMSFacilityMapDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PMSINFO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PMSInfoDetais]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Preferences]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Store]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Transaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnMappedDailyConfigInputEntry]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

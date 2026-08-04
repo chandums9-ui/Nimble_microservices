@@ -1,0 +1,23 @@
+﻿using Common.Domain.DTO.Model.Base;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DailySales.Domain.DTO.Resp
+{
+    public class DailySaleDatesResponse:StatusDTO
+    {
+        public DateTime? LatestFromDate { get; set; }
+        public DateTime? LatestToDate { get; set; }
+        public string LatestAccountID { get; set; }  
+        
+    }
+    public class DailySaleDatesDbResp
+    {
+        public DateTime? LatestFromDate { get; set; }
+        public DateTime? LatestToDate { get; set; }
+        public string LatestAccountID { get; set; }
+    }
+}

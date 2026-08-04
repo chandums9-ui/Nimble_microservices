@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>NimbleProperty.$(MSBuildProjectName)</AssemblyName>
+    <Nullable>disable</Nullable>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.11.4" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.0" />
+    <PackageReference Include="System.Formats.Asn1" Version="9.0.0" />
+    <PackageReference Include="System.Text.Json" Version="9.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\02INFRA\BankFeed.Infra\BankFeed.Infra\BankFeed.Infra.csproj" />
+    <ProjectReference Include="..\..\..\02INFRA\Common.Infra\Common.Infra.csproj" />
+    <ProjectReference Include="..\..\..\02INFRA\CoreAccounting.Infra\CoreAccounting.Infra.csproj" />
+    <ProjectReference Include="..\..\..\03APP\BankFeed.App\BankFeed.App\BankFeed.App.csproj" />
+    <ProjectReference Include="..\..\..\03APP\CoreAccounting.App\CoreAccounting.App.csproj" />
+  </ItemGroup>
+</Project>

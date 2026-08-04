@@ -1,0 +1,98 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "UMDBContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "DBCon",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "UserMgmt.Infra",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 1,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[ClientInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MenuInformation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Role]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RolePrevileges]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ServerInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[URLInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[URLServerInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserClientLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserCorpLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserCredentials]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserLoginActivity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserPCLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserPrevileges]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "ec2amaz-kqmluca.QA_NPUserMgmt.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

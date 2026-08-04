@@ -1,0 +1,74 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "NPAnalyticsWareHouseContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "DBCon",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "WareHouseSynch.Infra",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 1,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Fact_Accrual]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Fact_Accrual_Historical]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Fact_BillPayments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Fact_Bills]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Fact_RevenSalesAndStats]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FactAccrualStaging]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FactBillPaymentStaging]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FactBillStaging]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

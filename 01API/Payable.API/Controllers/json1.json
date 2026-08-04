@@ -1,0 +1,78 @@
+{
+  "ConnectionStrings": {
+
+
+    "qa8Connection": "Server=10.4.1.95;Database=pb_payable;Trusted_Connection=True;TrustServerCertificate=true;User ID=sa;Password=^!ml3Le#543*;Integrated Security=False;MultipleActiveResultSets=True",
+    "staging20Connection": "Server=10.4.1.95;Database=pb_DCP;Trusted_Connection=True;TrustServerCertificate=true;User ID=sa;Password=^!ml3Le#543*;Integrated Security=False;MultipleActiveResultSets=True",
+
+    "UMDBConnection": "Server=10.4.1.95;Database=NPUserManagement_Retail;Trusted_Connection=True;TrustServerCertificate=true;User ID=sa;Password=^!ml3Le#543*;Integrated Security=False;MultipleActiveResultSets=True",
+    "AuthDBConnection": "Server=10.4.1.95;Database=NPUserManagement_Retail;Trusted_Connection=True;TrustServerCertificate=true;User ID=sa;Password=^!ml3Le#543*;Integrated Security=False;MultipleActiveResultSets=True",
+
+    "BankFeedDataSharing": "Server=10.2.1.239;Database=BankFeeds;Trusted_Connection=True;TrustServerCertificate=true;User ID=sa;Password=^!ml3Le#543*;Integrated Security=False;MultipleActiveResultSets=True",
+    "RepayDBConnection": "Server=10.4.1.95;Database=RepayDB;Trusted_Connection=True;TrustServerCertificate=true;User ID=sa;Password=^!ml3Le#543*;Integrated Security=False;MultipleActiveResultSets=True",
+    "S1Connection": "Server=10.4.1.95;Database=NPAnalyticsWareHouse_latest;Trusted_Connection=True;TrustServerCertificate=true;User ID=sa;Password=^!ml3Le#543*;Integrated Security=False;MultipleActiveResultSets=True"
+
+
+  },
+  "MemoryCacheSettings": {
+    "SlidingExpirationMinutes": "5",
+    "AbsoluteExpirationMinutes": "120"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "LoggerSettings": {
+    "EnableFileLog": false,
+    "EnableInfoLog": false
+  },
+  "AWSSettings": {
+    "AccessKey": "AKIAXAY24WOFP24VQ4NS",
+    "BucketName": "nimble-attachments",
+    "BucketRegion": "US-East-1",
+    "DownloadFilePath": "C:\\AWSDownloadFiles\\",
+    "SecretKey": "IC81eOPMTs0E74Z1ePPq+JRQjkkqmkKMbYHnzSUS",
+    "MaxFileSizeMB": "20",
+    "NoOfFilesLimit": "5"
+  },
+  "EmailConfiguration": {
+    "From": "donotreply@nimbleproperty.net",
+    "SmtpServer": "email-smtp.us-east-1.amazonaws.com",
+    "Port": 465,
+    "Username": "AKIAXAY24WOFFHWRJKOC",
+    "Password": "BI2pVM8PvjJ4jshWqZcxzIKGHp2DMH1LZe1tZTZY1QbJ"
+  },
+  "RedisCacheConfiguration": {
+    "RedisIp": "54.221.16.243:6379",
+    "Password": "password"
+  },
+  "RedisCacheApproval": {
+    "IsEnableRedisCache": "0"
+  },
+  "ServerAnlyticsGroup": [
+    {
+      "ServerName": "S1",
+      "Clients": "qa8,staging20"
+    }
+  ],
+  "APEnabledClients": "qa8,staging20",
+  "WebHookEnabledClients": "qa8,staging20",
+  "AllowedHosts": "*",
+  "ProviderBaseURLs": {
+    "WrkSpotURL": "https://uat-wsapi.wrkspot.com/"
+  },
+  "WrkSpotKeyInfo": {
+    "VendorCode": "VC20240412114358B",
+    "SecretKey": "c098036c1c728bb5d71367d7cd4649860541a7a9b197889b852672a85a40fc20"
+
+  },
+  "WrkSpotEndPoints": {
+    "AuthToken": "/account/integration/v1/generate-token",
+    "Summary": "/account/integration/labor/v1/summary",
+    "Properties": "/account/integration/v1/properties"
+
+  }
+}
+  

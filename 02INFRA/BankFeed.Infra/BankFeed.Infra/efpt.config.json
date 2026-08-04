@@ -1,0 +1,134 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "BankFeedsContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "DBCon",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "BankFeed.Infra",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 1,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[FeedAccount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedAccountMapping]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedAccountMergeSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedConnectionLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedInstitute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedPossibleTrans_Sharing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedRule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedRuleDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedRuleMapping]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedSynchSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedTimeZone]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedTrans_Sharing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedTransactionMapping]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedTransactionMappingDeleted]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedTransactionPossibleMatches]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedTransactions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FeedTransactionsDeleted]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImportFormatSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NimbleAccountMergeSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProviderInsChangeLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProviderRegister]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Providers]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

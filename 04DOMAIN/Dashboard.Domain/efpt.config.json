@@ -1,0 +1,74 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "NimbleCustomizationContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "DataModel",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Dashboard.Domain",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 2,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[WidgetCustomization]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WidgetFormula]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WidgetFormulaDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WidgetFormulaSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WidgetPrivilegeDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WidgetPrivileges]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Widgets]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WidgetUserSettings]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

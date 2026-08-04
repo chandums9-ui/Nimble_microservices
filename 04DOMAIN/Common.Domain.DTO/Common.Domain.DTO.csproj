@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AssemblyName>NimbleProperty.$(MSBuildProjectName)</AssemblyName>
+		<Nullable>disable</Nullable>
+		<GenerateDocumentationFile>False</GenerateDocumentationFile>
+		<BaseOutputPath>..\..\..\99SolutionItems\SolutionDLLs</BaseOutputPath>
+	</PropertyGroup>
+	<ItemGroup>
+		<Compile Remove="App\StatusCodes.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+</Project>
